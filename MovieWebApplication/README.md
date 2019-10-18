@@ -1,4 +1,4 @@
-# moviewebapp
+# moviewebapi
 ## Technology Stack Used
     .NetCore 3.0, C# 8.0,EF Core, WebApi 
 ## Functionalities Yet To Be Added
@@ -11,6 +11,7 @@
 	   it could  be scalable and access from everywhere rather than using inmemory database.
 	5: Currently I have implemented inbuilt logging functionality using Logger but could also add third party logging
 	   modules and inject it to the service/controller .
+
 
 
 
