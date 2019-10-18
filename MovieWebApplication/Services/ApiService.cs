@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace MovieWebApp.Services
 {
-    public class ApiServices : IApiService
+    public class ApiService : IApiService
     {
         private readonly ApiContext _context;
-        private readonly ILogger<ApiServices> _logger;
+        private readonly ILogger<ApiService> _logger;
 
-        public ApiServices(ApiContext context, ILogger<ApiServices> logger)
+        public ApiService(ApiContext context, ILogger<ApiService> logger)
         {
             _context = context;
             _logger = logger;

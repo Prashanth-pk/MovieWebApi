@@ -31,7 +31,7 @@ namespace MovieWebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase("MyDatabase"));
-            services.AddScoped<IApiService, ApiServices>();
+            services.AddScoped<IApiService, ApiService>();
             services.AddMvc();
             services.AddMvcCore();
            
@@ -58,12 +58,6 @@ namespace MovieWebApplication
             }
          
             app.UseHttpsRedirection();
-            //app.UseMvc(routes =>
-            //{
-            //    routes.MapRoute(
-            //        name: "default",
-            //        template: "{controller=Movies}/{action=Index}/{id?}");
-            //});
         }
 
        

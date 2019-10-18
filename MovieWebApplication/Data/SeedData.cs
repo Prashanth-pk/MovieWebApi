@@ -93,7 +93,7 @@ namespace MovieWebApp.Data
             var movieRating2 = new UserMovieRatingcs
             {
                 Id=2,
-                UserId = user1.Id,
+                UserId = user2.Id,
                 MovieId = movie2.Id,
                 Rating = 5
             };
@@ -125,7 +125,7 @@ namespace MovieWebApp.Data
             var movieRating4 = new UserMovieRatingcs
             {
                 Id=4,
-                UserId = user1.Id,
+                UserId = user2.Id,
                 MovieId = movie5.Id,
                 Rating = 3
             };

@@ -52,6 +52,10 @@ namespace MovieWebApplication.Controllers
                 return NotFound("No Results Found.Please try different search criteria");
         }
 
+        /// <summary>
+        /// Top 5 Movie Average Rating
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> ApiB()
         {
@@ -68,35 +72,35 @@ namespace MovieWebApplication.Controllers
         /// <param name="queryParams"></param>
         /// <returns></returns>
 
-        [HttpGet]
-        public async Task<IActionResult> ApiC(UserMovieRatingcs queryParams)
+        [HttpPost]
+        public async Task<IActionResult> ApiD(UserMovieRatingcs queryparams)
         {
             if (!ModelState.IsValid)
             {
                 return new BadRequestObjectResult(ModelState);
             }
-            if (queryParams.UserId <= 0 || queryParams.MovieId <= 0)
+            if (queryparams.UserId <= 0 || queryparams.MovieId <= 0)
                 return BadRequest("Input Criteria Failed.");
 
-            var userInfo = await _apiservice.GetUserDetails(queryParams.UserId);
+            var userInfo = await _apiservice.GetUserDetails(queryparams.UserId);
             string responseMsg = string.Empty;
             if (userInfo != null && userInfo.Id > 0)
             {
-                var movieDetails = await _apiservice.GetMovieDetails(queryParams.MovieId);
+                var movieDetails = await _apiservice.GetMovieDetails(queryparams.MovieId);
                 if (movieDetails != null && movieDetails.Id > 0)
                 {
-                    var trackingInfo = _apiservice.GetUserMovieRatings(queryParams.MovieId, queryParams.UserId);
+                    var trackingInfo = _apiservice.GetUserMovieRatings(queryparams.MovieId, queryparams.UserId);
                     if (trackingInfo != null && trackingInfo.Id > 0)
                     {
                         //Updating Existing Record
-                        trackingInfo.Rating = queryParams.Rating;
+                        trackingInfo.Rating = queryparams.Rating;
                         _apiservice.UpdateMovieRating(trackingInfo);
                         responseMsg = "MovieRating Updated Successfully";
                     }
                     else
                     {
                         //Adding Record
-                        _apiservice.AddMovieRating(queryParams);
+                        _apiservice.AddMovieRating(queryparams);
                          responseMsg = "Movie Rating Added Successfully";
                     }
                     return Ok(responseMsg);
@@ -112,7 +116,7 @@ namespace MovieWebApplication.Controllers
         /// <param name="userid"></param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<IActionResult> ApiD(int userid)
+        public async Task<IActionResult> ApiC(int userid)
         {
             if (userid <= 0)
                 return BadRequest("Please provide valid UserId.");
