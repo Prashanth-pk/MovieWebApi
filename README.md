@@ -1,6 +1,6 @@
 # moviewebapi
 ## Technology Stack Used
-    .NetCore 3.0, C# 8.0,EF Core, WebApi 
+    .NetCore 2.1, C# 7.1,EF Core, WebApi 
 ## Summary Discription - Functionalities Yet To Be Added
     More Changes could be added to the current solution like as stated below.
 	1: More UnitTesting needs to be added. Created a skeleton now.
