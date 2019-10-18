@@ -15,7 +15,6 @@ namespace MovieWebApplication.Controllers
 {
 
     [Route("api/[controller]/[action]")]
-  
     public class MoviesController : ControllerBase
     {
         private readonly IApiService _apiservice;
