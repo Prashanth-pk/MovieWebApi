@@ -1,0 +1,17 @@
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebAppTest.deps.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebAppTest.runtimeconfig.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebAppTest.runtimeconfig.dev.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebAppTest.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebAppTest.pdb
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebApp.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\bin\Debug\netcoreapp2.1\MovieWebApp.pdb
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.csprojAssemblyReference.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.csproj.CoreCompileInputs.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.AssemblyInfoInputs.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.AssemblyInfo.cs
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.csproj.CopyComplete
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebAppTest\obj\Debug\netcoreapp2.1\MovieWebAppTest.pdb

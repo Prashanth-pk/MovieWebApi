@@ -1,0 +1,14 @@
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\bin\Debug\netcoreapp2.1\MovieWebApp.deps.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\bin\Debug\netcoreapp2.1\MovieWebApp.runtimeconfig.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\bin\Debug\netcoreapp2.1\MovieWebApp.runtimeconfig.dev.json
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\bin\Debug\netcoreapp2.1\MovieWebApp.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\bin\Debug\netcoreapp2.1\MovieWebApp.pdb
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.csproj.CoreCompileInputs.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.RazorAssemblyInfo.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.RazorAssemblyInfo.cs
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.AssemblyInfoInputs.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.AssemblyInfo.cs
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.RazorTargetAssemblyInfo.cache
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.dll
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.pdb
+C:\Users\super\source\repos\MovieWebApps\MovieWebApplication\obj\Debug\netcoreapp2.1\MovieWebApp.csprojAssemblyReference.cache
